@@ -34,8 +34,8 @@
     </v-layout>
     
     <!-- 프로젝트 메인 이미지 -->
-    <v-layout wrap >
-      <v-flex lg8 md12 sm12 xs12>
+    <v-layout wrap style="padding-top: 60px;" >
+      <v-flex lg8 md8 sm12 xs12>
         <div class="home-item">
           <v-img @click="proj01" class="img" src="./img/proj-1.png"></v-img>
           <div class="thumbnail" @click="proj01">
@@ -46,7 +46,7 @@
           </div>
         </div>
       </v-flex>
-      <v-flex lg4 md12 sm12 xs12> 
+      <v-flex lg4 md4 sm12 xs12> 
         <div class="home-item">
           <v-img @click="proj02" class="img" contain src="./img/proj-2.png"></v-img>
           <div class="thumbnail" @click="proj02">
@@ -66,7 +66,7 @@
           </div>
         </div>
       </v-flex>
-      <v-flex lg8 md12 sm12 xs12 class="home-item">
+      <v-flex lg8 md4 sm12 xs12 class="home-item">
         <v-img @click="proj04" class="img" contain src="./img/proj-4.png"></v-img>
           <div class="thumbnail" @click="proj04">
             <div class="thumbnail-text">
