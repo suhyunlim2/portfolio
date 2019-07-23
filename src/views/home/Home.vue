@@ -40,8 +40,8 @@
           <v-img @click="proj01" class="img" src="./img/proj-1.png"></v-img>
           <div class="thumbnail" @click="proj01">
             <div class="thumbnail-text">
-              <div class="title">proj1 title</div>
-              <div class="desc">proj1 desc</div>
+              <div class="title">글루코치</div>
+              <div class="desc">UIUI Design</div>
             </div>
           </div>
         </div>
@@ -51,8 +51,8 @@
           <v-img @click="proj02" class="img" contain src="./img/proj-2.png"></v-img>
           <div class="thumbnail" @click="proj02">
             <div class="thumbnail-text">
-              <div class="title">proj2 title</div>
-              <div class="desc">proj2 desc</div>
+              <div class="title">마이펫</div>
+              <div class="desc">UIUX Design</div>
             </div>
           </div>
         </div>
@@ -60,8 +60,8 @@
           <v-img @click="proj03" class="img" contain src="./img/proj-3.png"></v-img>
           <div class="thumbnail" @click="proj03">
             <div class="thumbnail-text">
-              <div class="title">proj3 title</div>
-              <div class="desc">proj3 desc</div>
+              <div class="title">부부트립</div>
+              <div class="desc">UIUX Design</div>
             </div>
           </div>
         </div>
@@ -70,8 +70,8 @@
         <v-img @click="proj04" class="img" contain src="./img/proj-4.png"></v-img>
           <div class="thumbnail" @click="proj04">
             <div class="thumbnail-text">
-              <div class="title">proj4 title</div>
-              <div class="desc">proj4 desc</div>
+              <div class="title">자생의료재단</div>
+              <div class="desc">UX Design</div>
             </div>
           </div>
       </v-flex>
