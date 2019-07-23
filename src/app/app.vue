@@ -6,16 +6,6 @@
   </v-app>
 </template>
 
-<script>
+<script src="./app.ts">
 
-export default {
-  name: 'App',
-  components: {
-  },
-  data() {
-    return {
-      //
-    };
-  },
-};
 </script>

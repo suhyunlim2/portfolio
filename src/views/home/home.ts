@@ -3,9 +3,6 @@ import router from '@/router';
 
 @Component({})
 export default class Home extends Vue {
-    private tab = null;
-    private tabs: string[] = ['Home', 'About Me', 'Contact'];
-
     private proj01() {
         this.$router.push({
             path: '/proj01',

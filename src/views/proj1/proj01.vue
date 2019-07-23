@@ -1,7 +1,7 @@
 <template>  
   <div class="wrap">
     <div class="name-wrap">
-      <i class="material-icons" @click="home">keyboard_backspace</i>
+      <i class="material-icons" @click="clickBack">keyboard_backspace</i>
       <div class="proj-name">글루코치</div>
     </div>
     <div class="content">
@@ -37,7 +37,7 @@
   </div>
 </template>
 
-<script src='./proj.ts'/>
+<script src='./proj01.ts'/>
 <style lang="scss" scoped>
 @import './proj01.scss';
 </style>

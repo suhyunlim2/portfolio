@@ -72,9 +72,40 @@
     align-items: center;
     width: 100%;
     padding: 10px;
-    cursor: pointer;
+    position: relative;
+    &:hover {
+        .thumbnail {
+            opacity: 0.95;
+            transition: .4s;
+        }       
+    }
     .img {
-        height: 100% !important;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .thumbnail {
+        cursor: pointer;
+        opacity: 0;
+        background: white;
+        position: absolute;
+        width: calc(100% - 50px);
+        height: calc(100% - 50px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .thumbnail-text {
+            text-align: center;
+            .title {
+                font-size: 32px !important;
+                font-weight: 600;
+            }
+            .desc {
+                font-size: 20px;
+            }
+        }
+
     }
 }
 
