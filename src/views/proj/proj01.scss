@@ -1,0 +1,105 @@
+.name-wrap{
+    margin: 100px 0 30px 0;
+    width: 100vw;
+    height: 76px;
+    line-height: 76px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Work Sans,"Open Sans","Arial",sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: none;
+    background-color: #ededed;
+    
+    i.material-icons{
+        padding-left: 150px;
+        float: left;
+        line-height: 76px;
+        cursor: pointer;   
+    }
+    .proj-name{
+        width: calc(100vw - 170px);
+    }
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background: white;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    padding: 50px 150px 0 150px;
+}
+
+.proj-title{
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    font-family: Work Sans,"Open Sans","Arial",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+}
+
+.proj-explain{
+    width: 70%;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: Work Sans,"Open Sans","Arial",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #808080; 
+    margin-bottom: 50px;
+}
+
+.proj-info{
+    font-size: 15px;
+    line-height: 28px;
+    font-family: Work Sans,"Open Sans","Arial",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    vertical-align: baseline;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    .infom{
+        width: 250px;
+        float: left;
+        background: white;
+    }
+}
+
+h6.gallery-side-heading {
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #222;
+}
+
+span.project_client{
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+    font-size: 14px;
+    color: #808080;
+}
+
+// 이미지
+.proj01-item{
+    width: 100%;
+    height: 100%;
+    .img{
+        margin: 20px 0;
+    }
+}
