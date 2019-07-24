@@ -10,7 +10,6 @@
     font-style: normal;
     text-transform: none;
     background-color: #ededed;
-    
     i.material-icons{
         margin-left: 110px;
         padding: 0 20px;
@@ -20,6 +19,13 @@
     }
     .proj-name{
         width: calc(100vw - 170px);
+    }
+}
+
+@media screen and (max-width:576px) {
+    .name-wrap{
+        font-size: 25px;
+        margin: 50px 0 30px 0;
     }
 }
 
@@ -35,6 +41,21 @@
     height: 100%;
     padding: 50px 150px 0 150px;
 }
+@media screen and (max-width:1280px) {
+    .content {
+        padding: 50px 80px 0 80px;
+    }
+}
+@media screen and (max-width:768px) {
+    .content {
+        padding: 50px 40px 0 40px;
+    }
+}
+@media screen and (max-width:576px) {
+    .content {
+        padding: 0 20px 0 20px;
+    }
+}
 
 .proj-title{
     font-size: 35px;
@@ -44,6 +65,12 @@
     font-weight: 400;
     font-style: normal;
     text-transform: none;
+}
+
+@media screen and (max-width:576px) {
+    .proj-title{
+        font-size: 25px;
+    }
 }
 
 .proj-explain{
@@ -59,8 +86,15 @@
     margin-bottom: 50px;
 }
 
+@media screen and (max-width:576px) {
+    .proj-explain{
+        width: 90%;
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+
 .proj-info{
-    font-size: 15px;
     line-height: 28px;
     font-family: Work Sans,"Open Sans","Arial",sans-serif;
     font-weight: 400;
@@ -76,16 +110,38 @@
         float: left;
         background: white;
     }
+    @media screen and (max-width:1280px) {
+        .infom {
+            width: 200px;
+        }
+    }
+    @media screen and (max-width:768px) {
+        .infom {
+            width: 160px;
+        }
+    }
+    @media screen and (max-width:576px) {
+        .infom {
+            width: 120px;
+        }
+    }
 }
+
 
 h6.gallery-side-heading {
     font-weight: 500;
     font-style: normal;
     text-transform: none;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     letter-spacing: -0.5px;
     color: #222;
+}
+
+@media screen and (max-width:576px) {
+    h6.gallery-side-heading{
+        font-size: 13px;
+    }
 }
 
 span.project_client{
@@ -95,9 +151,15 @@ span.project_client{
     font-size: 14px;
     color: #808080;
 }
+@media screen and (max-width:576px) {
+    span.project_client{
+        font-size: 12px;
+    }
+}
+
 
 // 이미지
-.proj02-item{
+.proj01-item{
     width: 100%;
     height: 100%;
     .img{

@@ -34,7 +34,7 @@
     </v-layout>
     
     <!-- 프로젝트 메인 이미지 -->
-    <v-layout wrap style="padding-top: 60px;" >
+    <v-layout wrap class="projMain">
       <v-flex lg8 md8 sm12 xs12>
         <div class="home-item">
           <v-img @click="proj01" class="img" src="./img/proj-1.png"></v-img>

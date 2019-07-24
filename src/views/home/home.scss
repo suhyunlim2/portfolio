@@ -4,14 +4,21 @@
     background: #fff;
     padding: 0 120px;
 }
-
-// .tab{
-//     font-family: Work Sans,"Open Sans","Arial",sans-serif;
-//     font-weight: 400;
-//     font-style: normal;
-//     text-transform: none;
-//     font-size: 20px;
-// }
+@media screen and (max-width:1280px) {
+    .home {
+        padding: 0 80px;
+    }
+}
+@media screen and (max-width:768px) {
+    .home {
+        padding: 0 40px;
+    }
+}
+@media screen and (max-width:576px) {
+    .home {
+        padding: 0 20px;
+    }
+}
 
 .wrap{
     padding: 0;
@@ -21,7 +28,29 @@
     width: 75%;
     text-align: left;
     padding: 130px 0 30px 0;
+    font-family: Work Sans,"Open Sans","Arial",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    font-size: 35px;
+    line-height: 52px;
+    letter-spacing: -0.5px;
+    color: #222;
 }
+@media screen and (max-width:1280px) {
+    .intro {
+        font-size: 30px;
+        line-height: 46px;
+    }
+}
+@media screen and (max-width:768px) {
+    .intro {
+        width: 80%;
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+
 
 .profile{
     width: 350px!important;
@@ -54,15 +83,18 @@
     }
 }
 
-.text{
-    font-family: Work Sans,"Open Sans","Arial",sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-    font-size: 35px;
-    line-height: 52px;
-    letter-spacing: -0.5px;
-    color: #222;
+.projMain{
+    padding-top: 60px;
+}
+@media screen and (max-width:1280px) {
+    .projMain {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .projMain {
+        padding-top: 0px;
+    }
 }
 
 .home-item {
